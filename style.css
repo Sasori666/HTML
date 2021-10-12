@@ -1,0 +1,53 @@
+body{
+    background-color:black;
+}
+body:hover{
+	background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(246, 250, 0) 0%, rgb(0, 25, 247) 100%);
+	transition-duration:0.5s;
+}
+h1 { 
+    text-align: center;
+    color: crimson;
+}
+.work{
+    text-align: center;
+    color:indianred;
+}
+.beginning {
+	width:1300px;
+	height:750px;
+	margin-left: auto;
+    margin-right: auto ;
+	background-color:darkblue;
+	flex-wrap: wrap;
+	display:flex;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+.beginning:hover{
+	background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,77,1) 100%);
+	transition-duration:0.5s;
+}
+.html{
+    background: rgb(166,58,180);
+    background: linear-gradient(90deg, rgb(2, 255, 44) 0%, rgb(250, 0, 0) 50%, rgb(46, 0, 252) 100%);
+    width: 220px;
+    height: 200px;
+    margin: 100px 30px 12px 0;
+    box-shadow: 2px 5px 14px #656962;
+}
+.html:hover{
+    box-shadow: 12px 13px 14px #656962;
+    transition-duration: 1s;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.VIEW{
+    height:50px;
+    width: 50px;
+}
